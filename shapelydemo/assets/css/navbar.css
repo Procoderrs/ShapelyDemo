@@ -1,0 +1,170 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* / global /  */
+.container {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	background-color: white;
+	position: relative;
+}
+
+.header-content {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.logo-otr {
+	display: flex;
+}
+.logo-otr p {
+	color: #333;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 300;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+.nav-list {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	padding: 0;
+}
+
+.nav-list > li {
+	position: relative;
+}
+
+nav a {
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	font-weight: 300;
+	letter-spacing: -1px;
+	gap: 8px;
+}
+nav .menu-li .menu {
+	line-height: 76px;
+	text-transform: uppercase;
+}
+
+nav a:hover {
+	color: blueviolet;
+}
+nav a i {
+	font-size: 10px;
+}
+
+.dropdown-content li:hover {
+	background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	opacity: 1;
+	top: 100%;
+	left: 0;
+}
+.dropdown-content li {
+	padding: 10px 10px;
+	white-space: nowrap;
+}
+
+.dropdown .dropdown-content .dropdown-content {
+	left: 100%;
+	top: 0;
+	margin-left: 0.5rem;
+	display: none;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content > .dropdown:hover > .dropdown-content {
+	display: block;
+	opacity: 1;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: white;
+	min-width: 130px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	opacity: 0;
+	transition: opacity 0.3s ease;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+.menu-icon-otr {
+	display: none;
+	cursor: pointer;
+}
+.menu-icon-otr .menu-icon {
+	width: 24px;
+	height: 24px;
+	margin: 0;
+}
+
+nav .search-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35px;
+	height: 35px;
+}
+nav .search-icon {
+	font-size: 14px;
+	line-height: 24px;
+}
