@@ -8,6 +8,7 @@
 
 #section1 {
 	background-image: url("../images/shapelydemo.jpg");
+
 	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
