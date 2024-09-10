@@ -1,6 +1,8 @@
 /* * {
 	border: 1px solid red;
 } */
+
+/*******************Section1*****************/
 .section {
 	width: 100%;
 }
@@ -31,14 +33,11 @@
 	line-height: 64px;
 	color: white;
 	text-transform: capitalize;
-	/* 	border: 2px solid red;
- */
+
 	padding-right: 80px;
 	padding-left: 80px;
 	padding-top: 20px;
 	text-align: center;
-	/* 	margin: 120px;
- */
 }
 .heading p {
 	font-size: 12px;
@@ -87,6 +86,8 @@
 	background-color: white;
 }
 
+/********************Section2*************** */
+
 #section2 {
 	background-color: white;
 	background-attachment: fixed;
@@ -105,9 +106,10 @@
 }
 
 .headings img {
-	width: 652px;
+	width: 600px;
 	height: 452px;
 	padding-top: 20px;
+	margin-left: 20px;
 }
 .text-container {
 	margin-left: 100px;
@@ -154,6 +156,85 @@
 .read-more-btn:hover {
 	background-color: #47399a;
 }
+/********************  Section3  **************/
+#section3 {
+	background-color: #f5f7f8;
+	background-attachment: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.headingss {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	padding: 80px 0;
+	/* 	border: 2px solid red;
+ */
+}
+.headingss img {
+	width: 600px;
+	height: 430px;
+	padding-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.text-containers {
+	margin-left: 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start; /* Aligns text at the top */
+	align-items: flex-start;
+
+	padding: 15px;
+	margin-top: 10px;
+	/* 	border: 2px solid red;
+ */
+}
+
+.text-containers h3 {
+	font-size: 22px;
+	font-weight: 400;
+	padding: 10px;
+	margin-top: 80px;
+	padding-right: 50px;
+	/* 	border: 2px solid red;
+ */
+}
+
+.text-containers p {
+	font-size: 14px;
+	color: #8c979e;
+	font-weight: 200;
+	line-height: 25px;
+	margin-right: 100px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 15px;
+	/* border: 2px solid red; */
+}
+
+.text-containers .see-it {
+	background-color: #745cf9;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: white;
+	border: none;
+	font-weight: 200;
+	font-size: 12px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.read-more-btn:hover {
+	background-color: #47399a;
+}
+
+/**************   mediaQuery  992px****************/
 
 @media (max-width: 992px) {
 	nav .search-container {
@@ -239,6 +320,7 @@
 		padding-right: 10px;
 	}
 }
+/**************   mediaQuery  768px****************/
 
 @media (max-width: 768px) {
 	.header {
@@ -294,7 +376,7 @@
 	}
 	.headings img {
 		width: 300px;
-		height: 250px;
+		height: 200px;
 		padding: 20px;
 		margin-left: 10px;
 
@@ -306,7 +388,7 @@
 		flex-direction: column;
 		justify-content: flex-start;
 
-		margin-right: 10px;
+		margin-right: 30px;
 		padding: 20px;
 	}
 	.text-container h3 {
@@ -331,6 +413,7 @@
 		background-color: #8572f1;
 	}
 }
+/**************   mediaQuery 425px****************/
 
 @media (max-width: 425px) {
 	.header {
@@ -434,13 +517,9 @@
 		margin-top: 20px;
 	}
 }
+/**************   mediaQuery  375px****************/
 
 @media (max-width: 375px) {
-	/* .headings img {
-		width: 386px;
-		height: 267px;
-		padding-left: 10px;
-	} */
 	#section {
 		max-width: 100%;
 	}
@@ -554,6 +633,7 @@
 		margin-top: 15px;
 	}
 }
+/**************   mediaQuery  320pxpx****************/
 
 @media (max-width: 320px) {
 	.heading p {
@@ -588,50 +668,6 @@
 		color: black;
 		background-color: white;
 	}
-	/* #section2 {
-		width: 100%;
-
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		overflow: hidden;
-	}
-
-	.headings {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		margin: 15px;
-	}
-	.headings img {
-		height: 225px;
-		width: 325px;
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-
-	.text-container {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-
-		padding: 20px;
-		justify-content: center;
-		align-items: center;
-		margin-left: 15px;
-		border: 2px solid red;
-	}
-	.text-container h3 {
-		font-size: 24px;
-		margin-top: -20px;
-		align-items: flex-start;
-	}
-
-	.text-container p {
-		align-items: center;
-		justify-content: center;
-	} */
 
 	#section2 {
 		width: 100%;
