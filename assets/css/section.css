@@ -648,9 +648,10 @@
 		align-items: center;
 	}
 	.headings img {
-		width: 380px;
-		height: 273px;
-		margin-top: 0;
+		width: 350px;
+		height: 230px;
+		margin-left: 10px;
+		margin-right: 10px;
 		align-items: center;
 		margin-top: -30;
 		padding: 0;
@@ -675,12 +676,14 @@
 	}
 
 	.text-container p {
-		margin-top: 10px;
+		margin-top: -10px;
 		line-height: 20px;
 		font-size: 11px;
-		padding: 10px;
-		margin-left: 5px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-right: -20px;
 		/* 		border: 2px solid red;
+ */ /* 		border: 2px solid red;
  */
 	}
 
