@@ -1,11 +1,56 @@
+/****************** section 6 **************/
+
+#section6 {
+	background-color: rgb(14, 16, 20);
+	color: white;
+	width: 100%;
+	display: flex;
+	padding-top: 0;
+	justify-content: center;
+	align-items: center;
+	margin-top: -55px;
+}
+
+.headin {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* 	border: 2px solid white;
+ */
+	/* margin-top: 60px;
+ */
+}
+.text-contain h3 {
+	/* 	border: 2px solid white;
+ */
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 30px;
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+.text-contain p {
+	font-size: 12px;
+	text-align: center;
+}
+
 .flex-container {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: flex-start;
 	flex-direction: row;
 	max-height: fit-content;
-	margin: 0;
+	margin-top: 30px;
 	padding: 0;
+	border: 0;
+	background-color: rgb(14, 16, 20);
 }
 .flex-container div {
 	margin: 0;
@@ -16,4 +61,185 @@
 	height: 250px;
 	width: 320px;
 	padding: 0;
+}
+#section7 {
+	background-image: url("../images/client-background.jpg");
+	background-size: cover;
+
+	background-attachment: fixed;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 60px;
+}
+.text-contains {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	/* 	border: 2px solid white;
+ */
+	padding-bottom: 40px;
+}
+
+.text-contains h3 {
+	color: white;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 30px;
+	text-align: center;
+
+	font-size: 25px;
+	font-weight: 300;
+	/* 	border: 2px solid white;
+ */
+}
+.text-contains p {
+	font-size: 12px;
+	color: white;
+	font-weight: 200;
+	line-height: 25px;
+	text-align: center;
+	/* 	border: 2px solid red;
+ */
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 20px auto;
+
+	max-width: 600px;
+}
+.text-contains .img-set {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: -10px;
+}
+.text-contains .img-set img {
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	/* 	border: 2px solid red;
+ */
+}
+
+.text-contains .img-set h5 {
+	margin-top: 5px;
+	text-align: center;
+	color: white;
+}
+
+/****************** media query 1024px *************/
+@media (max-width: 1024px) {
+	.flex-container img {
+		height: 170px;
+		width: 256px;
+		padding: 0;
+	}
+}
+
+/****************** media query 768px *************/
+@media (max-width: 768px) {
+	#section6 {
+		background-color: rgb(14, 16, 20);
+		color: white;
+		width: 100%;
+		display: flex;
+		padding-top: 0;
+		/* padding-bottom: 80px; */
+		justify-content: center;
+		align-items: center;
+		margin-top: -130px;
+	}
+	.flex-container img {
+		height: 300px;
+		width: 383px;
+		padding: 0;
+	}
+}
+/* text-contains h3 {
+		font-size: 20px;
+	}
+	.text-contains p {
+		font-size: 11px;
+		color: white;
+		font-weight: 200;
+		line-height: 25px;
+		text-align: center;
+		border: 2px solid red;
+
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 20px auto;
+
+		/* max-width: 600px; 
+*/
+
+/****************** media query 425px *************/
+
+@media (max-width: 425px) {
+	.headin h3 {
+		font-size: 20px;
+	}
+
+	.flex-container img {
+		height: 300px;
+		width: 412px;
+		padding: 0;
+	}
+
+	.text-contains p {
+		font-size: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+		border: 2px solid red;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+@media (max-width: 375px) {
+	.flex-container img {
+		height: 280px;
+		width: 360px;
+		padding: 0;
+	}
+	.text-contains p {
+		font-size: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+		border: 2px solid red;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media (max-width: 320px) {
+	.headin h3 {
+		font-size: 20px;
+	}
+	.text-contain p {
+		font-size: 10px;
+		text-align: center;
+		margin-top: -20px;
+		padding-bottom: 20px;
+	}
+
+	.flex-container img {
+		height: 240px;
+		width: 310px;
+		padding: 0;
+	}
+
+	.text-contains p {
+		font-size: 10px;
+		padding-left: 15px;
+		padding-right: 15px;
+		border: 2px solid red;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 }
