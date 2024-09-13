@@ -62,16 +62,19 @@
 	width: 320px;
 	padding: 0;
 }
+
+/****************** section 7 **************/
+
 #section7 {
 	background-image: url("../images/client-background.jpg");
 	background-size: cover;
-
+	background-position: bottom;
 	background-attachment: fixed;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 60px;
+	padding-bottom: 100px;
 }
 .text-contains {
 	display: flex;
@@ -133,6 +136,169 @@
 	color: white;
 }
 
+/****************** Section 8  **************/
+
+#section8 {
+	background-color: rgb(255, 255, 255);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 100px;
+}
+.headin-s {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	/* 	border: 2px solid red;
+ */
+	/* margin-top: 60px;
+ */
+}
+
+.text-contain-s h3 {
+	color: black;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 30px;
+	text-align: center;
+
+	font-size: 25px;
+	font-weight: 300;
+	/* 	border: 2px solid red;
+ */
+}
+
+.flex-container-2 {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+	flex-direction: row;
+	margin-top: 80px;
+	/* 	border: 2px solid red;
+ */
+	margin-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.flex-container-2 img {
+	height: 60px;
+	width: 60px;
+	margin-left: 50px;
+	margin-right: 50px;
+
+	padding-right: 10px;
+	filter: blur(1px); /* Apply blur filter */
+	transition: filter 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.flex-container-2 :hover {
+	filter: none; /* Remove blur on hover */
+}
+
+/****************** Section 9  **************/
+
+#section9 {
+	background-color: rgb(245, 245, 245);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 80px;
+	/* 	border: 2px solid red;
+ */
+}
+
+.headin-ss {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/* 	border: 2px solid red;
+ */
+	justify-content: center;
+	margin-top: 70px;
+}
+.headin-ss h3 {
+	color: black;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+
+	font-size: 25px;
+	font-weight: 300;
+	/* 	border: 2px solid red;
+ */
+}
+
+.download-now {
+	background-color: #745cf9;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	color: white;
+	border: none;
+	font-weight: 200;
+	font-size: 12px;
+	margin-left: 20px;
+	margin-top: 20px;
+
+	/* 	border: 2px solid red;
+ */
+}
+
+/* /***************  section 10 footer  **********
+
+footer {
+	background-color: rgb(245, 245, 245);
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid rgb(242, 196, 196);
+}
+
+.headin-sss {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border: 2px solid rgb(0, 255, 60);
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.headin-sss h5 {
+	color: black;
+	margin-left: 20px;
+	margin-top: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	margin-right: 100px;
+	font-size: 16px;
+	font-weight: 300;
+	border: 2px solid rgb(0, 4, 255);
+}
+.imgs {
+}
+.headin-sss img {
+	width: 50px;
+	height: 50px;
+	margin-right: 80px;
+}
+*/
 /****************** media query 1024px *************/
 @media (max-width: 1024px) {
 	.flex-container img {
