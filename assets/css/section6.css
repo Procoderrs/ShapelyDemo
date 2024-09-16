@@ -326,13 +326,30 @@ footer {
 
 /****************** media query 1024px *************/
 @media (max-width: 1024px) {
+	.flex-container div {
+		width: 25%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+	.flex-container img {
+		/* 	max-height: 250px;
+	
+	 */
+		width: 100%;
+
+		padding: 0;
+	}
+
+	/* 
 	.flex-container img {
 		height: 170px;
 		width: 256px;
 		overflow: hidden;
 
 		padding: 0;
-	}
+	} */
 }
 
 /****************** media query 768px *************/
@@ -350,9 +367,19 @@ footer {
 		align-items: center;
 		margin-top: -130px;
 	}
+	.flex-container div {
+		width: 25%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+
 	.flex-container img {
-		height: 300px;
-		width: 383px;
+		/* 	max-height: 250px;
+	
+	 */
+		width: 100%;
+
 		padding: 0;
 	}
 	.download-now {
@@ -396,9 +423,19 @@ footer {
 		font-size: 20px;
 	}
 
+	.flex-container div {
+		width: 25%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+
 	.flex-container img {
-		height: 300px;
-		width: 412px;
+		/* 	max-height: 250px;
+	
+	 */
+		width: 100%;
+
 		padding: 0;
 	}
 
@@ -527,9 +564,19 @@ footer {
 /****************** media query 375 px *************/
 
 @media (max-width: 375px) {
+	.flex-container div {
+		width: 25%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+
 	.flex-container img {
-		height: 280px;
-		width: 360px;
+		/* 	max-height: 250px;
+	
+	 */
+		width: 100%;
+
 		padding: 0;
 	}
 	.text-contains p {
@@ -659,9 +706,19 @@ footer {
 		padding-bottom: 20px;
 	}
 
+	.flex-container div {
+		width: 25%;
+		height: auto;
+		margin: 0;
+		padding: 0;
+	}
+
 	.flex-container img {
-		height: 240px;
-		width: 310px;
+		/* 	max-height: 250px;
+	
+	 */
+		width: 100%;
+
 		padding: 0;
 	}
 
