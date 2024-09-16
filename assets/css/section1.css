@@ -20,8 +20,12 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding-bottom: 150px;
-	margin: 80px;
+	padding-bottom: 80px;
+	margin-top: 100px;
+	margin-left: 80px;
+	margin-right: 80px;
+	/* 	border: 2px solid red;
+ */
 }
 
 .heading h1 {
@@ -35,6 +39,8 @@
 	padding-left: 80px;
 	padding-top: 20px;
 	text-align: center;
+	/* 	border: 2px solid red;
+ */
 }
 .heading p {
 	font-size: 12px;
