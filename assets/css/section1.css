@@ -8,11 +8,10 @@
 	background-attachment: fixed;
 	background-position: 50% 70%;
 	background-size: cover;
-
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 80px;
+	padding-bottom: 10.5%;
 }
 
 .heading {
@@ -20,7 +19,6 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	padding-bottom: 80px;
 	margin-top: 100px;
 	margin-left: 80px;
 	margin-right: 80px;
@@ -39,8 +37,7 @@
 	padding-left: 80px;
 	padding-top: 20px;
 	text-align: center;
-	/* 	border: 2px solid red;
- */
+	/*  */
 }
 .heading p {
 	font-size: 12px;
@@ -64,6 +61,7 @@
 	padding-bottom: 15px;
 	padding-left: 50px;
 	padding-right: 50px;
+	border: none;
 }
 .white {
 	background-color: rgba(255, 255, 255, 0.1);
@@ -77,7 +75,7 @@
 
 	text-align: center;
 
-	border: 2px solid white;
+	border: 1.5px solid white;
 }
 .purple:hover {
 	background-color: #624e88;
@@ -95,13 +93,34 @@
 	#section1 {
 		width: 100%;
 		overflow-x: hidden;
+		background-attachment: fixed;
+		background-position: 50% 70%;
+		background-size: cover;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 30%;
 	}
+
+	/* #section1 {
+		background-image: url("../images/shapelydemo.jpg");
+		background-attachment: fixed;
+		background-position: 50% 70%;
+		background-size: cover;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 50%;
+	} */
 	.heading {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
-		padding-bottom: 150px;
+		margin-top: 180px;
+		margin-left: 80px;
+		margin-right: 80px;
 	}
 }
 
@@ -122,9 +141,13 @@
 		margin-top: 10px;
 	}
 	.heading h1 {
-		font-size: 30px;
+		font-size: 50px;
 		font-weight: 400;
 		margin-top: 80px;
+		/* 		border: 2px solid red;
+ */
+		padding: 0;
+		margin-top: 100px;
 	}
 
 	.heading p {
