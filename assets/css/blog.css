@@ -20,7 +20,8 @@ a {
 	padding: 72px 0;
 }
 .inner-header .wrapper h1 {
-	font-size: 40px;
+	font-size: 25px;
+	font-weight: 300;
 }
 
 /* inner header starts here */
