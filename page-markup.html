@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width, initial-scale=1.0" />
+  <title>Blog</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+
+  <link rel="stylesheet" href="./assets/css/navbar.css" />
+  <link rel="stylesheet" href="./assets/css/page-markup.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="#" class="logo-otr">
+          <p>Shapely Demo</p>
+        </a>
+        <div class="toggle">
+          <div class="menu-icon-otr">
+            <img src="./assets/icons/menu.png" alt="Menu" class="menu-icon click toggle" />
+          </div>
+          <nav class="menu-expended nav">
+            <ul class="nav-list">
+              <li class="menu-li">
+                <a href="./index.html" class="menu">Home</a>
+              </li>
+              <li class="menu-li">
+                <a href="./Blog.html" class="menu">BLOG</a>
+              </li>
+              <li class="menu-li">
+                <a href="./portfolio.html" class="menu">PORTFOLIO</a>
+              </li>
+              <li class="dropdown menu-li">
+                <a href="./aboutTest.html" class="menu">
+                  ABOUT THE TESTS
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-content">
+                  <li>
+                    <a href="./alignment.html">Page Image Alignment</a>
+                  </li>
+                  <li>
+                    <a href="./page-markup.html">Page Markup and Formatting</a>
+                  </li>
+                  <li>
+                    <a href="./clear-floats.html">Clear Floats</a>
+                  </li>
+                  <li>
+                    <a href="#">Page with comments</a>
+                  </li>
+                  <li>
+                    <a href="#">Page with comment disabled</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown menu-li">
+                <a href="#" class="menu">
+                  LEVEL1
+                  <i class="fa-solid fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-content">
+                  <li class="dropdown">
+                    <a href="#">
+                      Level2
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-content">
+                      <li>
+                        <a href="#">Level3</a>
+                      </li>
+                      <li>
+                        <a href="#">Level3a</a>
+                      </li>
+                      <li>
+                        <a href="#">Level3b</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Level2a</a>
+                  </li>
+                  <li>
+                    <a href="#">Level2b</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-li">
+                <a href="#" class="menu">SHOP</a>
+              </li>
+              <li class="search-container">
+                <a href="#">
+                  <i class="fas fa-search search-icon"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="inner-header">
+    <div class="container">
+      <div class="wrapper">
+        <h1>Page Markup And Formatting</h1>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="blog-page-parent-grid">
+    <div class="container">
+      <div class="row">
+        <div class="col-8">
+          <div class="col-8-inner">
+            <div class="big-post">
+              <div class="big-post-inner">
+                <div class="text-main">
+
+                  <h1 class="first-heading ">
+                    Page Markup And Formatting
+                  </h1>
+                  <p class="space-2">Headings</p>
+                  <h1 class="head-1">Header one</h1>
+                  <h2 class="head-2">Header two</h2>
+                  <h3 class="head-3">Header three</h3>
+                  <h4 class="head-4">Header four</h4>
+                  <h5 class="head-5">Header five</h5>
+                  <h6 class="head-6">Header six</h6>
+                  <h2 class="head-2 heading-block">Blockquotes</h2>
+                  <p class="space">Single line blockquote.</p>
+                  <blockquote>
+                    <h6 class="head-6 heading-block">Stay hungry. Stay foolish.</h6>
+                  </blockquote>
+                  <p class="space">Multi line blockquote with a cite reference:</p>
+                  <h6 class="head-6 heading-block-1">
+                    "People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it
+                    means at all. It means saying no to the hundred other good ideas that there are. You have to pick
+                    carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation
+                    is saying no to 1,000 things. Steve Jobs – Apple Worldwide Developers’ Conference, 1997"
+                  </h6>
+                  <h2 class="head-2 heading-block">Tables</h2>
+                  <table>
+                    <tr>
+                      <th>Employe</th>
+                      <th>Salary</th>
+                      <th></th>
+                    </tr>
+                    <tr>
+                      <td>Jane</td>
+                      <td>$1</td>
+                      <td>Because that’s all Steve Job’ needed for a salary.</td>
+                    </tr>
+                    <tr>
+                      <td>John</td>
+                      <td>$100k</td>
+                      <td>For all the blogging he does.</td>
+                    </tr>
+                    <tr>
+                      <td>Jane</td>
+                      <td>$100M</td>
+                      <td>Pictures are worth a thousand words, right? So Tom x 1,000.</td>
+                    </tr>
+                    <tr>
+                      <td>Jane</td>
+                      <td>$100B</td>
+                      <td>With hair like that?! Enough said…</td>
+                    </tr>
+
+                  </table>
+
+                  <h2 class="head-2 heading-block">Definition Lists</h2>
+                    <dl>
+                      <dt class="space-3">Definition list Title</dt>
+                      <dd class="space">Definition list division.</dd>
+                      <dt class="space-3">Startup</dt>
+                      <dd class="space">A startup company or startup is a company or temporary organization designed to search for a repeatable and scalable business model.</dd>
+                       <dt class="space-3">#dowork</dt>
+                       <dd class="space">Coined by Rob Dyrdek and his personal body guard Christopher “Big Black” Boykins, “Do Work” works as a self motivator, to motivating your friends.</dd>
+                        <dt class="space-3">Do it Live</dt>
+                        <dd class="space">I’ll let Bill O’Reilly will explain this one.
+                        </dd>
+                      </dl>
+                      
+                        <h2 class="head-2">
+                          Unordered Lists (Nested)
+                        </h2>
+                        <ul class="space differ">
+                          <li class="differ-2">
+                            List item one
+                            <ul  class="differ">
+                              <li class="differ-2">List item one
+                                <ul class="differ">
+                                  <li class="differ-2">List item one</li>
+                                  <li class="differ-2">List item two</li>
+                                  <li class="differ-2">List item three</li>
+                                  <li class="differ-2">List item four</li>
+                                </ul>
+                              </li>
+                              <li class="differ-2">List item two</li>
+                              <li class="differ-2">List item three</li>
+                              <li class="differ-2">List item four</li>
+                            </ul>
+                          </li>
+                          <li class="differ-2">List itme two</li>
+                          <li class="differ-2">List itme three</li>
+                          <li class="differ-2">List itme four</li>
+
+                        </ul>
+                        <h2 class="head-2">
+                          Ordered List (Nested)
+                        </h2>
+                        <ol class="space">
+                          <li>
+                            List item one
+                            <ol>
+                              <li>List item one
+                                <ol>
+                                  <li>List item one</li>
+                                  <li>List item two</li>
+                                  <li>List item three</li>
+                                  <li>List item four</li>
+                                </ol>
+                              </li>
+                              <li>List item two</li>
+                              <li>List item three</li>
+                              <li>List item four</li>
+                            </ol>
+                          </li>
+                          <li>List itme two</li>
+                          <li>List itme three</li>
+                          <li>List itme four</li>
+
+                        </ol>
+                        <h2 class="head-2">
+                          HTML Tags
+                        </h2>
+                        <p class="space">These supported tags come from the WordPress.com code FAQ.</p>
+                         <p class="space-3">Address Tag</p>
+                         <address class="space">1 Infinite Loop <br>
+                          Cupertino, CA 95014 <br>
+                          United States
+                          </address>
+
+                          <p class="space-3">Anchor Tag (aka. Link)</p>
+                          <p class="space">This is an example of a <a href="#" class="inline-links">link.</a></p>
+                          <p class="space-3">Abbreviation Tag</p>
+                          <p class="space">The acronym <abbr title="for the win">
+                            ftw</abbr> stands for "for the win".</p>
+                          <p class="space-3">Big Tag</p>
+                          <p class="space">These tests are a <big>big</big> deal, but this tag is no longer supported in HTML5.</p>
+                            <p class="space-3">Cite Tag</p>
+                            <p class="space"> “Code is poetry.” <cite>—Automattic</cite></p>
+                              <p class="space-3">Code Tag</p>
+                              <p class="space">You will learn later on in these tests that <code class="red">word-wrap: break-word;</code> will be your best friend. </p>
+                                
+<p class="space-3">Delete Tag</p>
+<p class="space">This tag will let you <del>strikeout text</del>, 
+  but this tag is no longer supported in HTML5 (use the <strike class="red"> strike </strike> instead).
+
+</p> 
+ <p class="space-3">Emphasize Tag</p>
+ <p class="space">The emphasize tag should <i>italicize</i> text.</p>
+ <p class="space-3">Insert Tag</p>
+ <p class="space">This tag should denote <ins>inserted</ins> text.</p>
+ <p class="space-3">Keyboard Tag</p>
+ <p class="space">This scarcely known tag emulates <kbd>keyboard text</kbd>, which is usually styled like the <code class="red"> code</code> tag.</p>
+  <p class="space-3">Preformatted Tag</p>
+  <p class="space">This tag styles large blocks of code.</p>
+  <pre>
+    .post-title {
+      margin: 0 0 5px;
+      font-weight: bold;
+      font-size: 38px;
+      line-height: 1.2;
+    }
+  </pre>
+  <p class="space-3">Quote Tag</p>
+  <p class="space"> <q>Developers, developers, developers…</q>--Steve Ballmer</p>
+  <p class="space-3">Strong Tag</p>
+  <p class="space"> This tag shows <strong>bold text.</strong></p>
+  <p class="space-3">subscript Tag</p>
+  <p class="space">Getting our science styling on with H<sub>2</sub>O, which should push the “2” down.
+
+    <p class="space-3">superscript Tag</p>
+  <p class="space"> Still sticking with science and Isaac Newton’s E = MC<sup>2</sup>, which should lift the 2 up.</p>
+  <p class="space-3">Teletype Tag</p>
+  <p class="space">This rarely used tag emulates <tt class="high">teletype text,</tt> which is usually styled like the <code class="red"> code</code> tag.
+    <p class="space-3">Variable Tag</p>
+    <p class="space-1"> This allows you to denote <var class="high">variables</var></p>
+  </p>
+
+ 
+</div>
+
+
+
+                <!-- <div class="main-big">
+
+
+                  </h1>
+                  <img src="./assets/images/image-alignment-1200x4002.jpg" alt="">
+                  <p class="space">The image above, though 1200px wide, should not overflow the content area. It should
+                    remain contained with no visible disruption to the flow of content.</p>
+                </div>
+
+                <div class="floats-1">
+
+
+                  <p><img class="float-1" src="./assets/images/image-alignment-300x200.jpg" alt="">
+                  <p class="space ">The rest of this paragraph is filler for the sake of seeing the text wrap around the
+                    150×150 image, which is left aligned. </p>
+                  </p>
+                  <p class="space ">As you can see the should be some space above, below, and to the right of the image.
+                    The text should not be creeping on the image. Creeping is just not right. Images need breathing room
+                    too. Let them speak like you words. Let them do their jobs without any hassle from the text. In
+                    about one more sentence here, we’ll see that the text moves from the right of the image down below
+                    the image in seamless transition. Again, letting the do it’s thang. Mission accomplished!
+
+                  </p>
+                  <p class="space">And just when you thought we were done, we’re going to do them all over again with
+                    captions!
+
+                  </p>
+
+
+
+                </div>
+                <div class="text-main div-1">
+
+                  <figure>
+                    <img src="./assets/images/image-alignment-580x300.jpg" alt="">
+                    <figcaption class="caption ">
+                      Look at 580×300 getting some <a href="#" class="inline-links">caption</a> love.
+                    </figcaption>
+                  </figure>
+
+                </div>
+
+                <p class="space">The image above happens to be centered. The caption also has a link in it, just to see
+                  if it does anything funky.
+
+                </p>
+                <div class="floats div-2">
+                  <figure class="figure-style">
+                    <img class="float" src="./assets/images/image-alignment-150x150.jpg" alt="">
+                    <figcaption class="caption">Itty Bitty caption</figcaption>
+                  </figure>
+
+                  <p class="space">The rest of this paragraph is filler for the sake of seeing the text wrap around the
+                    150×150 image, which is left aligned.</p>
+
+                  <p class="space">As you can see, there should be some space above, below, and to the right of the
+                    image. The text should not be creeping on the image. Creeping is just not right. Images need
+                    breathing room too. Let them speak like your words. Let them do their jobs without any hassle from
+                    the text. In about one more sentence here, we’ll see that the text moves from the right of the image
+                    down below the image in a seamless transition. Again, letting it do its thing. Mission accomplished!
+                  </p>
+                  <p class="space text-align">And now for a <span>massively large image.</span> It also has <span>no
+                      alignment.</span>
+
+                </div>
+                <div class="main-big-1">
+
+                  <figure>
+                    <img src="./assets/images/image-alignment-1200x4002.jpg" alt="">
+                    <figcaption class="caption ">
+                      Massive image comment for your eyeballs.
+                    </figcaption>
+                  </figure>
+                </div>
+                <p class="space">The image above, though 1200px wide, should not overflow the content area. It should
+                  remain contained with no visible disruption to the flow of content.</p>
+
+                <div class="floats-1s">
+
+                  <figure class="figure-style-1">
+                    <img class="float-1" src="./assets/images/image-alignment-300x200.jpg" alt="">
+                    <figcaption class="caption">
+                      Feels good to be right all the time.
+                    </figcaption>
+                  </figure>
+
+                  <p class="space">And now we’re going to shift things to the right align. Again, there should be plenty
+                    of room above, below, and to the left of the image. Just look at him there… Hey guy! Way to rock
+                    that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone
+                    else tell you differently.</p>
+                  <p class="space">In just a bit here, you should see the text start to wrap below the right aligned
+                    image and settle in nicely. There should still be plenty of room and everything should be sitting
+                    pretty. Yeah… Just like that. It never felt so good to be right.</p>
+                  </p>
+                  <p class="space-1">And that’s a wrap, yo! You survived the tumultuous waters of alignment. Image
+                    alignment achievement unlocked!</p>
+                  </p>
+                </div> -->
+                <div class="input">
+
+                  <h1 class="input-first-heading ">
+                    Leave a Reply
+                  </h1>
+                  <p class="space">Your email address will not be published. Required fields are marked *
+                  </p>
+                  <div class="input-main">
+                    <div class="input-otr">
+                      <input type="text" placeholder="Your Name*" class="theme-1-input" />
+
+                    </div>
+                  </div>
+
+                  <div class="input-main">
+                    <div class="input-otr">
+                      <input type="text" placeholder="Email Address*" class="theme-1-input" />
+
+                    </div>
+                  </div>
+
+                  <div class="input-main">
+                    <div class="input-otr">
+                      <input type="text" placeholder="Your Website (optional)" class="theme-1-input" />
+
+                    </div>
+                  </div>
+                  <div class="input-main">
+                    <div class="input-otr">
+                      <textarea placeholder="Comment" class="theme-1-input" rows="7"></textarea>
+                    </div>
+                  </div>
+                  <p class="form-submit">
+                    <input type="submit">
+                  </p>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-4">
+          <div class="col-4-inner">
+            <div class="input-main">
+              <div class="input-otr">
+                <input type="text" placeholder="type here" class="theme-input" />
+                <button type="submit" class="search-btn">
+                  <i class="fas fa-search search-icon"></i>
+                </button>
+              </div>
+            </div>
+            <div class="sidebar-post-main">
+              <div class="top-post-main sidebar-div">
+                <h2 class="heading">Top Posts</h2>
+                <div class="top-post-list">
+                  <div class="top-post-otr">
+                    <div class="top-post-inner">
+                      <div class="img-otr">
+                        <a href="#"><img class="img-fluid top-post-img" src="./assets/images/blog6.jpg" alt="" /></a>
+                      </div>
+                      <div class="top-post-content">
+                        <a class="top-post-heading" title="Markup: Title With Markup" href="#">Markup: Title With
+                          Markup</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="top-post-otr">
+                    <div class="top-post-inner">
+                      <div class="img-otr">
+                        <a href="#"><img class="img-fluid top-post-img" src="./assets/images/blog2.jpg" alt="" />
+                        </a>
+                      </div>
+                      <div class="top-post-content">
+                        <a class="top-post-heading" title="Hello world!" href="#">Hello world!</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="top-post-otr">
+                    <div class="top-post-inner">
+                      <div class="img-otr">
+                        <a href="#"><img class="img-fluid top-post-img" src="./assets/images/shapelydemo.jpg" alt="" />
+                        </a>
+                      </div>
+                      <div class="top-post-content">
+                        <a class="top-post-heading" title="Markup: HTML Tags and Formatting" href="#">Markup: HTML Tags
+                          and Formatting</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="top-post-otr">
+                    <div class="top-post-inner">
+                      <div class="img-otr">
+                        <img class="img-fluid top-post-img" src="./assets/images/blog-1.jpg" alt="" />
+                      </div>
+                      <div class="top-post-content">
+                        <a class="top-post-heading" title="Template Sticky" href="#">Template Sticky</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="recent-posts-main sidebar-div">
+                <h2>Recent Posts</h2>
+                <ul>
+                  <li>
+                    <a href="#">Template: More Tag</a>
+                  </li>
+                  <li>
+                    <a href="#">Hello world!</a>
+                  </li>
+
+                  <li>
+                    <a href="#">Markup:HTML Tags and Formatting</a>
+                  </li>
+                  <li>
+                    <a href="#"> Markup: Image Alignment</a>
+                  </li>
+                  <li>
+                    <a href="#"> Markup: Text Alignment</a>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="recent-posts-main sidebar-div">
+                <h2>Categories</h2>
+                <ul>
+                  <li>
+                    <a href="#">Edge Case</a>
+                  </li>
+                  <li>
+                    <a href="#">Markup</a>
+                  </li>
+
+                  <li>
+                    <a href="#">Media</a>
+                  </li>
+                  <li>
+                    <a href="#">News</a>
+                  </li>
+                  <li>
+                    <a href="#">Post Formats</a>
+                  </li>
+                  <li>
+                    <a href="#">Template</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+  </section>
+
+  <footer>
+		<div class="headin-sss">
+			<h5>Theme by Colorlib Powered by WordPress</h3>
+				<div class="imgs">
+					<img src="./assets/icons/vecteezy_facebook-icons-facebook-social-media-logo_31737195.png" alt="">
+<img src="./assets/icons/vecteezy_instagram-logo-png-instagram-icon-transparent_18930473.png" alt="">
+<img src="./assets/icons/vecteezy_linkedin-logo-png-linkedin-icon-transparent-png_18930585.png" alt="">
+
+				</div>
+		
+		</div>
+	</footer> 
+	<script src="./assets/script/script.js" defer></script>
+</body>
+
+</html>
